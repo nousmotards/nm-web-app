@@ -22,7 +22,7 @@ APP_COMMON_PATH="${APP_NAME}/${ENVIRONMENT}/${APP_NAME}_${VERSION}.tgz"
 WGET_RCODE=0
 
 # Default download method
-echo "Downloading archivarchive..."
+echo "Downloading archive..."
 wget ${WGET_COMMON_OPTIONS} ${WGET_OPTIONS} ${URL}/${APP_COMMON_PATH} || WGET_RCODE=$?
 
 # Fallback download method
