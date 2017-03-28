@@ -49,4 +49,4 @@ fi
 echo "Decompress archive..."
 tar --strip-components=1 -xzf /usr/share/nginx/html/app.tgz && rm -f /usr/share/nginx/html/app.tgz || exit 1
 
-while [ 1 ] ; do sleep 3600 ; do
+while [ 1 ] ; do sleep 3600 ; done
