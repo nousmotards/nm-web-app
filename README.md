@@ -5,7 +5,7 @@ Container build to run Web application on Nousmotards infra.
 
 This image can be used for other scenario. Here are the principal advantages:
 * Light
-* Based on Alpine
+* Based on Debian slim
 * Automatic archive application download at boot
 * Failback solution based on AWS to retrieve archive application
 
