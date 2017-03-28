@@ -47,6 +47,6 @@ if [ $WGET_RCODE != 0 ] ; then
 fi
 
 echo "Decompress archive..."
-tar --strip-components=1 -xzf /usr/share/nginx/html/app.tgz && rm -f /usr/share/nginx/html/app.tgz || exit 1
+tar --strip-components=1 -xzf /usr/share/nginx/html/app.tgz -C /usr/share/nginx/html && rm -f /usr/share/nginx/html/app.tgz || exit 1
 
 while [ 1 ] ; do sleep 3600 ; done
